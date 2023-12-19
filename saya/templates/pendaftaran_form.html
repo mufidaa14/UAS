@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form action = "" method="post">
+        <h2>FORM PENDAFTARAN</h2>
+        <table>
+            <tr>
+                <td>Judul</td>
+                <td>{{ form.judul }}</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>{{ form.konten }}</td>                
+            </tr>
+            <tr>
+                <td>Tanggal Pendaftaran</td>
+                <td>{{ form.date }}</td>                
+            </tr>
+        </table>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
